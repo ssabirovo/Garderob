@@ -1,0 +1,34 @@
+@import "_basics";
+@import "_head";
+@import "_header";
+
+// media
+@media (max-width: 1200px) {
+  section {
+    padding: 3rem 5%;
+  }
+}
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  section {
+    padding: 3rem 2rem;
+  }
+}
+@media (max-width: 783px) {
+}
+@media (max-width: 600px) {
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 40%;
+  }
+}

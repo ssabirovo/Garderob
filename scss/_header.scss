@@ -1,0 +1,31 @@
+
+#mainContainer {
+  position: relative;
+  overflow: scroll;
+}
+#header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.505), rgba(0, 0, 0, 0.29)),
+    url(../images/modern.webp);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+
+  h1 {
+    color: #fff;
+    font-size: 4rem;
+  }
+}
+#wardrobe {
+  position: absolute;
+
+  background: url(../images/wardrobe-close.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
