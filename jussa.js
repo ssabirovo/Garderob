@@ -7,8 +7,8 @@ window.addEventListener("scroll", () => {
   let value = window.scrollY;
   // wardrobe.style.top = -value * 1 + "px";
   header__teext1.style.opacity = "100" - value + "%";
-  header.style.left = -value * 1 + "px";
-  header2.style.right = -value * 1 + "px";
+  header.style.left = -value * 3 + "px";
+  header2.style.right = -value * 3 + "px";
 });
 header__teext1.addEventListener("click", () => {
   header.style.position = "absolute";
