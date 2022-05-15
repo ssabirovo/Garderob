@@ -57,11 +57,7 @@ body {
 }
 #header h1 {
   color: #fff;
-  font-size: 7em;
-  position: absolute;
-  right: -18rem;
-  cursor: pointer;
-  
+  font-size: 3em;
 }
 
 #wardrobe {

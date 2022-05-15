@@ -6,7 +6,7 @@ let header__teext1 = document.getElementById("header__teext1");
 window.addEventListener("scroll", () => {
   let value = window.scrollY;
   // wardrobe.style.top = -value * 1 + "px";
-  header__teext1.style.opacity = "100" - value + "%";
+  header__teext1.style.opacity = "100" - value * 3 + "%";
   header.style.left = -value * 3 + "px";
   header2.style.right = -value * 3 + "px";
 });
