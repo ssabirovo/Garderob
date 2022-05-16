@@ -10,7 +10,3 @@ window.addEventListener("scroll", () => {
   header.style.left = -value * 3 + "px";
   header2.style.right = -value * 3 + "px";
 });
-header__teext1.addEventListener("click", () => {
-  header.style.position = "absolute";
-  header.style.right = "0";
-});

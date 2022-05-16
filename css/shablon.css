@@ -20,7 +20,7 @@ section {
   padding: 3rem 9%;
 }
 body {
-  height: 110vh;
+  height: 200vh;
   background-color: #411d12;
   overflow: hidden;
 }
@@ -63,7 +63,7 @@ body {
 #wardrobe {
   position: fixed;
   top: 0px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.105), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.505), rgba(0, 0, 0, 0.503)),
     url(../images/modern.webp);
   background-size: cover;
   background-position: center;
@@ -71,6 +71,38 @@ body {
   height: 100%;
   z-index: 1;
   overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.ownerCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.ownerCard__photo {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50rem 50rem;
+}
+.ownerCard__name {
+  font-size: 3rem;
+  color: #fff;
+}
+.wardrobe__content {
+  padding-top: 3rem;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.wardrobe__content img {
+  width: 15rem;
+  outline: 1rem solid #3d1a10;
+  height: auto;
 }
 
 @media (max-width: 1200px) {
