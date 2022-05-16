@@ -97,7 +97,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 4.1rem;
 }
 .wardrobe__content img {
   width: 15rem;
