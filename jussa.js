@@ -7,6 +7,6 @@ window.addEventListener("scroll", () => {
   let value = window.scrollY;
   // wardrobe.style.top = -value * 1 + "px";
   header__teext1.style.opacity = "100" - value * 3 + "%";
-  header.style.left = -value * 3 + "px";
-  header2.style.right = -value * 3 + "px";
+  header.style.left = -value / 2 + "px";
+  header2.style.right = -value / 2 + "px";
 });
